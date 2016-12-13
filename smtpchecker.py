@@ -102,7 +102,7 @@ def main() :
 		if len(r) > 0:
 			print bcolors.OKGREEN + "[+] Checking the results %s/%s passwords found."  % (len(lines), len(r) ) + bcolors.ENDC 
 		else :
-			print bcolors.FAIL + "[-] Passwords not found."  % (len(lines), len(r) ) + bcolors.ENDC
+			print bcolors.FAIL + "[+] Checking the results %s Passwords found!!!"  % (len(r) ) + bcolors.ENDC 
 		
 		for results in r :
 		  print results[0] + "," + results[1]
