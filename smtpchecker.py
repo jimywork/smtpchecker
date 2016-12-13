@@ -81,8 +81,8 @@ def main() :
 
 		 	k = map(str.strip, lines)
 			v = k[count].find(",")
-			e = k[count][v+1:]
-			p = k[count][0:v] 
+			e = k[count][0:v]
+			p = k[count][v+1:] 
 
 			try:
 		            server = smtplib.SMTP(host, port)
