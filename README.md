@@ -1,6 +1,6 @@
 # SMTP GMAIL CHECKER V1.0
 
-##### How to use this tool
+## How to use this tool
 
 ```python
 
