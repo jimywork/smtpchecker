@@ -1,8 +1,4 @@
 # SMTP GMAIL CHECKER V1.0
-![Image of Yaktocat](http://i.imgur.com/QQgVgEp.png)
-### About this tool
-
-This tool is **very easy to use**, this tool is a checker for google mail service only what you need to have is a **email** and **password** separated by commas. You can also modify the code or make improvements I am not an expert in python just an initiator.
 
 ##### How to use this tool
 
@@ -10,6 +6,8 @@ This tool is **very easy to use**, this tool is a checker for google mail servic
 
 
 print("""      
+python smtpchecker.py -t smtp.gmail.com -p 587 -f passwords/passwords.txt
+      
 						
        .-. \_/ .-. 		
        \.-\/=\/.-/ 	           
@@ -25,6 +23,15 @@ print("""
    '----`--'  '--`----'
      By @fbctf 
      https://twitter.com/fbctf
-	""")
-  Usage: python smtpchecker.py -t smtp.gmail.com -p 587 -f path/passwords.txt
+	
+Warning: This can be dangerous and illegal!
+Do you wish to continue? (Y/n): y
+[+] Is at its own risk...
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:45<00:00,  9.02s/it]
+[+] Checking the results 5/3 passwords found.
+terapia.imbui@gmail.com,comando10
 ```
+## About this tool
+
+This tool is **very easy to use**, this tool is a checker for google mail service only what you need to have is a **email** and **password** separated by commas. You can also modify the code or make improvements I am not an expert in python just an initiator.
+
