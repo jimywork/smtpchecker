@@ -1,12 +1,9 @@
 import os
 import sys
 import smtplib
-import random
 import optparse
 import time
 import tqdm
-import simplejson
-
 
 class bcolors:
     HEADER = '\033[95m'
