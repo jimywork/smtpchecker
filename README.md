@@ -6,7 +6,7 @@
 
 
 print("""      
-python smtpchecker.py -t smtp.gmail.com -p 587 -f passwords/passwords.txt
+python python smtpchecker.py --mode checker / bruter
       
 						
        .-. \_/ .-. 		
@@ -25,11 +25,15 @@ python smtpchecker.py -t smtp.gmail.com -p 587 -f passwords/passwords.txt
      https://twitter.com/fbctf
 	
 Warning: This can be dangerous and illegal!
-Do you wish to continue? (Y/n): y
+Do you wish to continue? (Y/n): Y
+Enter your target email: example@gmail.com
+Enter with the wordlist: passwords1.txt
 [+] Is at its own risk...
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:45<00:00,  9.02s/it]
-[+] Checking the results 5/3 passwords found.
-terapia.imbui@gmail.com,comando10
+[+] Loading 33 proxys ...
+[+] Loading 52 passwords ...
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3443/3443 [00:45<00:00,  9.02s/it]
+[+] Checking the results 3443/1 passwords found.
+example@gmail.com,funfuncat
 ```
 ## About this tool
 
