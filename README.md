@@ -31,8 +31,8 @@ Enter with the wordlist: passwords.txt
 [+] Is at its own risk...
 [+] Loading 33 proxys ...
 [+] Loading 52 passwords ...
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3443/3443 [00:45<00:00,  9.02s/it]
-[+] Checking the results 3443/1 passwords found.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:45<00:00,  9.02s/it]
+[+] Checking the results 50/1 passwords found.
 example@gmail.com,funfuncat
 ```
 ## About this tool
